@@ -39,12 +39,12 @@ input,
 select,
 textarea {
   width: 100%;
-  padding: 8px 15px;
   font-family: 'Poppins', sans-serif;
   border-radius: 5px;
   border: none;
   margin: 5px 0;
   font-size: 15px;
+  padding: 8px 15px;
 }
 
 p {
