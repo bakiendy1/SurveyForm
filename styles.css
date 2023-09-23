@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: white;
+  font-weight: 400;
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  margin: 50 0 0 0;
+}
+
+#description {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-top: 0;
+  font-weight: 300;
+}
+
+#survey-form {
+  margin: 50px auto 0;
+  min-width: 350px;
+  max-width: 700px;
+  background-color: #1b1b32;
+  padding: 40px;
+  font-size: 19px;
+  border: none;
+  border-radius: 5px;
+}
+label {
+  display: block;
+  padding: 10px 0 0 0;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px 15px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  border: none;
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+p {
+  margin-bottom: 0;
+}
+input[type="radio"] {
+  width: unset;
+  vertical-align: middle;
+  margin-right: 5px;
+  transform: scale(1.5);
+}
+
+span {
+  font-size: 14px;
+}
+
+#checkhead {
+  margin-top: 30px;
+}
+
+input[type="checkbox"] {
+  width: unset;
+  margin-right: 10px;
+  transform: scale(1.5);
+}
+
+#textarea {
+  margin: 20px 0;
+}
+
+textarea{
+  border-radius: 0;
+  height: 8rem;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: #37af65;
+}
