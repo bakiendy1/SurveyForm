@@ -84,6 +84,4 @@ input[type="submit"] {
   color: white;
   background-color: #37af65;
 }
-input, textarea {
-  width: calc(100% - 30px);
-}
+
